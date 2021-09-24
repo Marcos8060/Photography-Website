@@ -1,0 +1,36 @@
+/* Universal declaration */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav container */
+.nav_container{
+    background-color: #F1F5F8;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 15px;
+}
+.logo h1{
+    font-family: 'Dancing Script', cursive;
+}
+.nav_links ul{
+    display: flex;
+    margin-right: 30px;
+}
+.nav_links ul li{
+    list-style: none;
+    margin: 10px 30px;
+    text-transform: uppercase;
+}
+.nav_links ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
