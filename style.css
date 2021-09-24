@@ -89,12 +89,40 @@ a:hover {
   color: #c59d5f;
   margin-top: 50px;
   margin-bottom: 8vh;
+  color: #c59d5f;
+  font-size: 18px;
 }
 .hero_container .photo{
-  font-family: "Dancing Script", cursive;
+  font-family: 'Playball', cursive;
   font-size: 55px;
   color: #c59d5f;
   font-weight: bold;
+}
+.hero_container h3{
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.hero_container .photo span{
+  color: white;
+}
+.hero_container button{
+  background-color: transparent;
+  height: 55px;
+  width: 150px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #c59d5f;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  box-shadow: 2px 4px solid white;
+}
+.hero_container button:hover{
+  background-color: #c59d5f;
+  color: black;
+  outline: 0;
+  border: none;
+  transition: 1s;
 }
 /* footer */
 .footer{
