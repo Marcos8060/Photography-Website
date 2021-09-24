@@ -54,8 +54,25 @@ a:hover {
 /* Hero section */
 .hero_container{
   background-image: url('./images/Img1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  color: white;
+  height: 85vh;
   text-align: center;
-  margin-top: 15vh;
+}
+.hero_container::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: -1;
 }
 .hero_container h3{
   margin-bottom: 30px;
