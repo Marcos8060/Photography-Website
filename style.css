@@ -1,36 +1,43 @@
 /* Universal declaration */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* nav container */
-.nav_container{
-    background-color: #F1F5F8;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav_container {
+  background-color: #f1f5f8;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo{
-    margin-left: 15px;
+.logo {
+  margin-left: 15px;
 }
-.logo h1{
-    font-family: 'Dancing Script', cursive;
+.logo h1 {
+  font-family: "Dancing Script", cursive;
 }
-.nav_links ul{
-    display: flex;
-    margin-right: 30px;
+.nav_links ul {
+  margin-right: 30px;
+  display: flex;
 }
-.nav_links ul li{
-    list-style: none;
-    margin: 10px 30px;
-    text-transform: uppercase;
+.nav_links ul li {
+  list-style-type: none;
+  margin: 0 20px;
+  text-transform: uppercase;
+  line-height: 80px;
 }
-.nav_links ul li a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+.nav_links ul li a {
+  text-decoration: none;
+  padding: 7px 13px;
+  border-radius: 4px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+a.active,
+a:hover {
+  background-color: #c59d5f;
 }
