@@ -276,6 +276,10 @@ a:hover {
   background-color: #f1f5f8;
   transition: 1s;
 }
+.gps{
+  width: 90%;
+  margin: auto;
+}
 /* Navigation menu media query */
 @media (max-width: 900px){
   .logo h1{
