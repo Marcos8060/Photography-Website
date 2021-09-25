@@ -208,7 +208,10 @@ a:hover {
   color: #c59d5f;
 }
 .portfolio_container{
-  margin-left: 70px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 70px; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -226,8 +229,28 @@ a:hover {
   }
 }
 @media (max-width: 768px){
+  .about_container{
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    flex-direction: column;
+  }
+  .about_pic img{
+    height: 450px;
+  }
+  .about_info p{
+    line-height: 20px;
+  }
   .check_btn{
     display: block;
+  }
+  .portfolio_container{
+    text-align: center;
+    width: 100%;
+  }
+  .portfolio_container img{
+    width: 205px;
+    height: 200px;
   }
   ul{
     position: fixed;
