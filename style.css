@@ -213,7 +213,7 @@ a:hover {
 }
 .portfolio_container img{
   width: 300px;
-  height: 300px;
+  height: 250px;
 }
 /* Navigation menu media query */
 @media (max-width: 900px){
