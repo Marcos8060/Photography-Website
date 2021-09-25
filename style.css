@@ -194,7 +194,8 @@ a:hover {
   background-color: #c59d5f;
   color: black;
   text-align: center;
-  height: 5vh;
+  height: 8vh;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
