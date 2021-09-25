@@ -322,6 +322,12 @@ a:hover {
   }
 }
 @media (max-width: 768px){
+  .contacts input{
+    width: 400px;
+  }
+  .contacts textarea{
+    width: 400px;
+  }
   .contact_container{
     flex-direction: column;
     justify-content: center;
