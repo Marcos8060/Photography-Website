@@ -351,6 +351,17 @@ a:hover {
     width: 205px;
     height: 200px;
   }
+  .team_container{
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .team_container div{
+    margin-top: 10px;
+  }
+  .team_container img{
+    width: 205px;
+    height: 200px;
+  }
   ul{
     position: fixed;
     width: 100%;
