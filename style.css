@@ -364,6 +364,7 @@ a:hover {
   }
   .team_container div{
     margin-top: 10px;
+    height: 300px;
   }
   .team_container img{
     width: 205px;
