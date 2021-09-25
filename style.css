@@ -275,6 +275,7 @@ a:hover {
 .contacts button:hover{
   background-color: #f1f5f8;
   transition: 1s;
+  cursor: pointer;
 }
 .gps{
   width: 90%;
