@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #f1f5f8;
+}
+
 /* nav container */
 .nav_container {
   background-color: #f1f5f8;
@@ -122,6 +126,65 @@ a:hover {
   color: black;
   outline: 0;
   border: none;
+  transition: 1s;
+}
+.about_title{
+  text-align: center;
+  margin-top: 20px;
+  color: #c59d5f;
+}
+.underline{
+  border-bottom: 3px solid black;
+  width: 90px;
+  margin: auto;
+  margin-top: 10px;
+}
+/* About page */
+.about_container{
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+  margin-top: 20px;
+  background-color: #f1f5f8;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about_pic img{
+  border-radius: 10px;
+  margin: 10px;
+  height: 600px;
+  width: 700px;
+}
+.about_info{
+  text-align: center;
+}
+.about_info h1{
+  margin-bottom: 45px;
+  color: #c59d5f;
+  font-family: 'Playball', cursive;
+  font-size: 40px;
+  line-height: 60px;
+}
+.about_info p{
+  margin-bottom: 35px;
+  line-height: 35px;
+  font-family: montserrat;
+}
+.about_info button{
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: montserrat;
+  height: 55px;
+  width: 140px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 2px solid #c59d5f;
+  border-color: #c59d5f;
+  outline: 0;
+}
+.about_info button:hover{
+  background-color: #c59d5f;
   transition: 1s;
 }
 /* footer */
