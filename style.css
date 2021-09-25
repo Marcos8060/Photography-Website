@@ -139,6 +139,9 @@ a:hover {
   margin: auto;
   margin-top: 10px;
 }
+.r{
+  color: black;
+}
 /* About page */
 .about_container{
   width: 90%;
@@ -151,10 +154,9 @@ a:hover {
   align-items: center;
 }
 .about_pic img{
-  border-radius: 10px;
   margin: 10px;
   height: 600px;
-  width: 700px;
+  width: 500px;
 }
 .about_info{
   text-align: center;
@@ -196,6 +198,22 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* portfolio */
+.portfolio_title{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #c59d5f;
+}
+.portfolio_container{
+  margin-left: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio_container img{
+  width: 300px;
+  height: 300px;
 }
 /* Navigation menu media query */
 @media (max-width: 900px){
