@@ -171,7 +171,7 @@ a:hover {
 .about_info p{
   margin-bottom: 35px;
   line-height: 35px;
-  font-family: montserrat;
+  font-family: 'Times New Roman', Times, serif;
 }
 .about_info button{
   margin-top: 30px;
@@ -194,11 +194,17 @@ a:hover {
   background-color: #c59d5f;
   color: black;
   text-align: center;
-  height: 8vh;
+  height: 10vh;
   margin-top: 10px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
+}
+.footer .name a{
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
 }
 /* portfolio */
 .portfolio_title{
