@@ -2,6 +2,9 @@
 
 This is a webiste designed and developed under the requirement of Moringa School in fulfillment of one's obligation to complete week one of Moringa School coding bootcamp. 
 
+## Author
+Marcos Ochieng - Student at Moringa School.
+
 ## Technologies used
 Pure HTML and CSS.
 ## Technologies not applied
