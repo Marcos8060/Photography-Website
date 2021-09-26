@@ -8,7 +8,7 @@ Pure HTML and CSS.
 Any other apart from the two indicated above.
 
 ## Credits
-Much appreciation is given to the likes traversymedia youtube channel and W3schools documentation which were very instrumental in the general success of the project. Being my first week at Moringa School, this was a great achievement for me in my personal growth as a developer.[w3schools](w3schools.com)
+Much appreciation is given to the likes traversymedia youtube channel and W3schools documentation which were very instrumental in the general success of the project. Being my first week at Moringa School, this was a great achievement for me in my personal growth as a developer.[w3schools](https://www.w3schools.com/)
 ## License and Copyright
 © Marcos Ochieng, Moringa school Independent project
 
