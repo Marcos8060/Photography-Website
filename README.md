@@ -29,7 +29,8 @@ The project is to be evaluated on the following objectives
 ## Technologies used
 Pure HTML and CSS.
 
-
+## Link to live site on GitHub Pages
+[View Live site]( https://marcos8060.github.io/Photography-Website/)
 ## Credits
 Much appreciation is given to the likes traversymedia youtube channel and W3schools documentation which were very instrumental in the general success of the project. Being my first week at Moringa School, this was a great achievement for me in my personal growth as a developer.[w3schools](https://www.w3schools.com/)
 ## License and Copyright
