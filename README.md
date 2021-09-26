@@ -1,2 +1,3 @@
 # Applied Git commands
-A photography website designed and developed with Vanilla html and css.
+##git init
+####It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
