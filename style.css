@@ -384,8 +384,10 @@ a:hover {
     top: 80px;
     left: -100%;
     text-align: center;
-    flex-direction: column;
     transition: all .5s;
+  }
+  ul li{
+    display: block;
   }
   .nav_container{
     background-color: #c59d5f;
@@ -398,3 +400,6 @@ a:hover {
     left: 0;
   }
 }
+
+
+
