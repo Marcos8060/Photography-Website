@@ -22,26 +22,24 @@
     <title>Photography Website</title>
 </head>
 <body>
-    <div class="nav_container">
-        <div class="logo">
+    <!-- <div class="nav_container"></div> -->
+        <!-- <div class="logo">
             <h1>Marcos Photography</h1>
-        </div>
-        <div class="nav_links">
-            <ul>
+        </div> -->
+            <nav>
+                <input type="checkbox" id="check">
+                    <label for="check">
+                        <i class="fas fa-bars" id="btn"></i>
+                        <i class="fas fa-times" id="remove"></i>
+                    </label>
+             <ul>
                 <li><a class="active" href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#work">Team</a></li>
+                <li><a href="#team">Team</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contacts</a></li>
-            </ul>
-        </div>
-        <!-- humberger -->
-        <input type="checkbox" id="check">
-         <label for="check" class="check_btn">
-            <i class="fas fa-bars" id="btn"></i>
-         </label>
-       <!-- End of humberger -->
-    </div>
+             </ul>
+            </nav>
     <!-- Hero section -->
     <div id="home" class="hero_container">
         <h3>We love</h3>
@@ -57,10 +55,14 @@
     </div>
     <div class="about_container">
         <div class="about_pic">
-            <img src="./images/img2.jpg" alt="my Image">
+            <img src="./images/Img23.jpg" alt="my Image">
         </div>
         <div class="about_info">
             <h1>A photographer based out of Nairobi, who loves to click, cook and travel</h1>
+            <p>I’ve been working as a professional photographer all my adult life. Right after
+                 my graduation, MA I began doing my gigs.
+                  After first few years of working for an event agency and with dozens of beautiful wedding sets
+                  in my portfolio, I decided to give it a go and opened up my very own wedding photography service.</p>
              <p>In need of quality photos, look no further! I am here to exceed your expectations.
                  I am a passionate and highly motivated individual whose work comes first and above all,
                  puts the needs of my clients above my personal. With more than seven years of experience
@@ -92,7 +94,7 @@
     </div>
     <!-- End of portfolio section -->
     <!-- Team section -->
-    <div class="team_title1">
+    <div class="team_title1" id="team">
         <h2>Check <span class="r">our</span> Team</h2>
         <div class="underline"></div>
     </div>
